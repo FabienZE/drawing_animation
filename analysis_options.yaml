@@ -4,8 +4,6 @@ analyzer:
   exclude:
     - build/**
     - "**/*.g.dart"
-  strong-mode:
-    implicit-casts: false
   errors:
     missing_required_param: error
     parameter_assignments: error
